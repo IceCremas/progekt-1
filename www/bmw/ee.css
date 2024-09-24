@@ -1,0 +1,154 @@
+:root {
+	--main-bg-color: blue;
+}
+
+* {
+	margin: 0%;
+	padding: 0%;
+	font-family: sans-serif;
+}
+.header {
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	background: #ffffff81;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.header_content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logoBox {
+	width: 80px;
+	height: 80px;
+}
+.logoIMG {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+.lin_link {
+	box-shadow: 0 0 20px rgb(219, 6, 6);
+	color: var(--main-bg-color);
+}
+
+.nav_list {
+	display: flex;
+	align-items: center;
+	list-style: none;
+	gap: 30px;
+}
+.btn {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	padding: 5px 10px;
+	box-shadow: 0 0 20px rgb(15, 6, 6);
+}
+.broder {
+	width: 1856px;
+	height: 1000px;
+}
+.langSelectorWrp {
+	padding-right: 200px;
+}
+.FFF {
+	margin-bottom: 20px;
+}
+.gg {
+	font-size: 26px;
+	font-weight: 800;
+}
+.mmm {
+	color: red;
+	font-size: 60px;
+	margin-bottom: 20px;
+}
+.section1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* flex-direction: column; */
+	gap: 1000px;
+	padding: 80px 0;
+	/* border-bottom: 1px solid black; */
+}
+.card {
+	text-align: center;
+	width: 300px;
+	box-shadow: 0 0 20px gray;
+	padding: 10px;
+}
+button {
+	background-color: red;
+	text-align: center;
+	padding: 30px 0px 30px 0;
+	display: block;
+	width: 100%;
+	font-weight: 700;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+button:hover {
+	background-color: rgb(14, 4, 4);
+}
+.cartina {
+	width: 300px;
+	height: 200px;
+	object-fit: cover;
+}
+
+.BG {
+	height: 100vh;
+	background-image: url("https://avatars.mds.yandex.net/i?id=044e95b6d9c35f47518d21f0a7505c5f_l-9706559-images-thumbs&n=13");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.cord2 {
+	text-align: center;
+	width: 300px;
+	box-shadow: 0 0 20px gray;
+	padding: 10px;
+}
+.text {
+	margin-bottom: 20px;
+}
+.stoimost {
+	font-size: 26px;
+	font-weight: 800;
+}
+.cortina2 {
+	width: 300px;
+}
+.stoimost:hover {
+	background: rgb(63, 94, 251);
+	background: radial-gradient(
+		circle,
+		rgba(63, 94, 251, 1) 0%,
+		rgba(252, 70, 107, 1) 100%
+	);
+}
+.gg:hover {
+	background: rgb(63, 94, 251);
+	background: radial-gradient(
+		circle,
+		rgba(63, 94, 251, 1) 0%,
+		rgba(252, 70, 107, 1) 100%
+	);
+}
+.fut {
+	width: 100%;
+	border-color: rgba(51, 255, 0, 0.473);
+}
